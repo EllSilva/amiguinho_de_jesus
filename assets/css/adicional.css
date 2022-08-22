@@ -1,0 +1,172 @@
+.letra3d {
+  color: #fff;
+
+  text-shadow:
+    1px -1px 0 #2f5d87,
+    2px -2px 0 #2e5a83,
+    3px -3px 0 #2d5880,
+    4px -4px 0 #2b557c,
+    5px -5px 0 #2a5378,
+    6px -6px 0 #295074,
+    7px -7px 0 #274d71,
+    8px -8px 0 #264b6d,
+    9px -9px 0 #254869,
+    10px -10px 0 #234665,
+    11px -11px 0 #224361,
+    12px -12px 0 #21405e,
+    13px -13px 12px rgba(0, 0, 0, 0.55),
+    13px -13px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+.bg-capa {
+  background-image:
+    url("/assets/img/jms1.jpg");
+  background-size: 100%;
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+}
+
+.bg-tamanha {
+ 
+}
+
+.letraTamanho {
+ font-size: 75px;
+}
+
+
+.aa {
+  color: #01a650;
+}
+
+.mm {
+  color: #f7a8a9;
+}
+
+.ii {
+  color: #1f1d1d;
+}
+
+.gg {
+  color: #f48221;
+}
+
+.uu {
+  color: #465e88;
+}
+
+.nn {
+  color: #aa997b;
+}
+
+.hh {
+  color: #93d5f5;
+}
+
+.oo {
+  color: #e92026;
+}
+
+.ss {
+  color: #1f1d1d;
+}
+
+.dd {
+  color: #0a91ce;
+}
+
+.ee {
+  color: #faec02;
+}
+
+.valor_icon {
+  color: #17a2b8;
+}
+
+.features{
+  text-align: center;
+}
+
+.noneImg1 {
+  width: 100%; 
+}
+
+.noneImg2 {
+  width: 100%;
+}
+ 
+.sidebar {
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  width: 0px;
+  overflow: hidden;
+  display: inline-block;
+  position: fixed !important;
+  top: 0px;
+  left: 0;
+  z-index: 1030 !important;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 6px 4px 30px 0px rgb(0, 0, 0, 0.25);
+  height: 100%;
+
+}
+ 
+@media (max-width: 1200px) {
+  .noneImg {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 260px) and (max-width: 1201px) {
+
+  .sidebar {
+      -moz-transition: all .5s;
+      -o-transition: all .5s;
+      -webkit-transition: all .5s;
+      transition: all .5s;
+      font-family: "Poppins", sans-serif;
+      background: rgb(255, 255, 255);
+      overflow: hidden;
+      display: inline-block;
+      position: fixed !important;
+      top: 0px;
+      left: 0;
+      z-index: 1030 !important;
+      border-radius: 0 20px 20px 0;
+      box-shadow: 6px 4px 30px 0px rgb(0, 0, 0, 0.25);
+      height: 100%;
+      width: 100%;
+
+  }
+
+  .botaoEcoder {
+    position: fixed;
+    padding: 1rem;
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 2rem;
+    color: rgb(11, 10, 10);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    float: left;
+    left: 0rem;
+
+    z-index: 1034 !important;
+}
+
+
+  .img_center {
+    text-align: center;
+    padding: 16px 1px 0px 0px;
+}
+
+}
