@@ -209,3 +209,76 @@
 }
 
 }
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 3600px;
+  max-height: 100vh;
+}
+
+.number-slide1 {
+  background-image:
+  url("/assets/img/jms1.jpg");
+background-size: 100%;
+border: solid 2px;
+text-shadow: white 0px 0px 2px;
+}
+ 
+.number-slide2 {
+  background-image:
+  url("/assets/img/jms2.jpg");
+background-size: 100%;
+border: solid 2px;
+text-shadow: white 0px 0px 2px;
+}
+
+.number-slide3 {
+  background-image:
+  url("/assets/img/jms3.jpg");
+background-size: 100%;
+border: solid 2px;
+text-shadow: white 0px 0px 2px;
+}
+
+.number-slide4 {
+  background-image:
+  url("/assets/img/jms4.jpg");
+background-size: 100%;
+border: solid 2px;
+text-shadow: white 0px 0px 2px;
+}
+
+.number-slide5 {
+  background: rgb(255, 64, 156);
+  background: linear-gradient(
+    128deg,
+    rgba(255, 64, 156, 1) 0%,
+    rgba(255, 63, 63, 1) 100%
+  );
+}
+.number-slide6 {
+  background: rgb(64, 76, 255);
+  background: linear-gradient(
+    128deg,
+    rgba(64, 76, 255, 1) 0%,
+    rgba(174, 63, 255, 1) 100%
+  );
+}
